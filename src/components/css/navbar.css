@@ -20,10 +20,6 @@
     font-size:20px
 }
 
-.nav-button{
-    
-}
-
 .login-button{
     background-color:transparent;
     border:none;
@@ -43,5 +39,6 @@
 }
 
 .sign-up-button:hover{
-    background-color:#1b62fb;
+    background-color:#003ec3;
+    cursor: pointer;
 }

@@ -3,7 +3,7 @@ import navbar from "./css/navbar.css";
 const Navbar = () => {
     return ( 
         <div className="navbar">
-            <h2>Hudumu Parcel Services</h2>
+            <h2>Huduma Parcel Services</h2>
             <div className="navbar-list-item">
                 <li>Deliveries</li>
                 <li>About</li>
