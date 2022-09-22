@@ -5,12 +5,14 @@ import person from "../assets/person.svg";
 const SignUp = () => {
   return (
     <div>
-      <button className="back-button"><i class='bx bx-left-arrow-alt bx-md'></i>Go Back</button>
+      <button className="back-button">
+        <i class="bx bx-left-arrow-alt bx-md"></i>Go Back
+      </button>
       <div className="signup-title">
         <h2>Sign Up</h2>
         <div className="form-container">
           <div className="image-art">
-          <img src={plant} alt="" className="plant" />
+            <img src={plant} alt="" className="plant" />
           </div>
           <form>
             <input
@@ -39,7 +41,7 @@ const SignUp = () => {
             />
             <input type="submit" value="Submit" className="submit-button" />
           </form>
-          <img src={person} alt="" />
+          <img src={person} alt="" className="person" />
         </div>
       </div>
     </div>
